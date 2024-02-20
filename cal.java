@@ -1,4 +1,6 @@
 import java.util.*;
+class Subtraction{
+
 class Addition{
     public static void main(String args[]){
         Scanner sc=new Scanner(System.in);
@@ -7,6 +9,10 @@ class Addition{
         
         System.out.println("Enter the value2:");
         int b=sc.nextInt();
+
+        System.out.println("Result:",a-b);
+
         System.out.println("Result:",a+b);
+
     }
 }
